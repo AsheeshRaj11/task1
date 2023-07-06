@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Shadows+Into+Light&display=swap');
+
+body {
+    background: url(bg1.jpg );
+    background-size: 1540px 850px;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Belanosima', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container {
+    /* border: 2px solid black; */
+    /* border-radius: 30px; */
+    /* background-color: rgba(245, 245, 220, 0.444); */
+}
+
+.flex {
+    display: flex;
+
+}
+
+.navbtn {
+    text-decoration: none;
+    color: rgba(105, 101, 101, 0.858);
+    list-style: none;
+    cursor: pointer;
+}
+
+.itemc {
+    align-items: center;
+    text-align: center;
+    image-rendering: crisp-edges;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.justifyb {
+    justify-content: space-between;
+}
+
+.justifyaround {
+    justify-content: space-around;
+}
+
+.navbtn {
+    margin: 40px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.logo {
+    margin: 16px 45px;
+    font-size: 50px;
+    color: rgb(80, 80, 81);
+    font-weight: bolder;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    cursor: pointer;
+}
+
+.btn1 {
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 13px;
+    font-weight: bold;
+    padding: 0px 20px;
+    margin: 0px 10px 10px 0px;
+}
+
+.cart {
+    height: 44px;
+    width: 46px;
+    padding: 2px 2px;
+    background-color: rgb(255 193 68 / 51%);
+    border-radius: 33px;
+    border: 4px solid transparent;
+    margin: -14px 3px;
+
+}
+
+.btn {
+    display: flex;
+    margin: 8px 0px;
+
+}
+
+ul {
+    padding: 12px 12px;
+}
+
+.navbtn:hover {
+    text-decoration: underline;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+
+}
+
+.topleft {
+
+    height: 400px;
+    min-width: 40%;
+    margin: 80px 50px;
+    padding: 10px;
+    
+}
+
+.topright {
+    min-width: auto;
+    margin: 0% 50px;
+    height: 550px;
+}
+
+.b1 {
+    border: 4px solid rgb(51 58 60 / 48%);
+    border-radius: 40px;
+    color: rgb(100, 102, 103);
+    padding: 18px;
+    width: 250px;
+    font-size: 2rem;
+}
+
+.sec2 {
+    margin-top: 200px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+.slogo{
+    height: 200px;
+    width: 200px;
+}
+.items{
+    display: inline-block;
+    /* border: 2px solid rebeccapurple; */
+    margin: 10px 45%;
+
+}
+.boxes {
+    /* border: 2px solid red; */
+   
+}
+
+.box {
+    border: 6px solid rgba(168, 170, 163, 0.766);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin: 50px 50px;
+    padding: 15px 0px;
+}
+
+.proimg {
+    width: 300px;
+    height: 280px;
+    border: 1px solid black;
+    margin-left: 24px;
+
+}
+
+.box ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 2px 22px;
+}
+.buybtn{
+    
+    margin: 0px 135px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
